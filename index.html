@@ -2,14 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DigitalOcean - The developer Cloud</title>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>DigitalOcean - The developer Cloud</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
 
@@ -85,13 +85,13 @@
             <p>Deploy, manage , and scale cloud application faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand</p>
           </div>
 
-          <form class="col-xs-12 col-sm-3">
+          <form class="col-xs-12 col-sm-4">
             <h4>Deploy you app in seconds.</h4>
-            <h4>Get started now</h4>
+            <h4 id="getStarted">Get started now</h4>
             <input type="email" placeholder="Email" name="" value="">
             <input type="password" placeholder="Password" name="" value="">
-            <button type="button" class="btn" name="button">Create your own account</button>
-            <button type="button" class="btn" name="button"><img src="" alt="">Sidn up with google</button>
+            <button id="createAccount" type="button" class="btn" name="button">Create your own account</button>
+            <button id="googlesign" type="button" class="btn" name="button"><img id="googleicon" src="resources/google-icon.png" alt=""><span>Sign up with google</span></button>
             <p>By signing up you agree to the <a href="#">Term of service</a></p>
           </form>
 
@@ -105,7 +105,7 @@
 
         <div class="row">
           <div class="col-xs-12">
-            <h5>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h5>
+            <h3>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h3>
           </div>
         </div>
 
@@ -139,7 +139,7 @@
     </section>
 
     <!-- Section 2 -->
-    <section id="section2">
+    <section id="section2 ">
       <div class="container">
 
         <div class="row">
@@ -149,7 +149,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row text-left">
           <div class="col-xs-12 col-sm-2">
             <ul>
               <li>Deploy</li>
@@ -164,13 +164,13 @@
             <div class="row">
 
               <div class="deploy col-xs-12 col-sm-6 col-md-6">
-                <img src="resources/cluster-deploy.svg" alt="">
-                <h4>Cluster deployments</h4>
+                <img class="" src="resources/cluster-deploy.svg" alt="">
+                <h3>Cluster deployments</h3>
                 <p>provision multiple Droplets(virtual machines) in seconds with our control panel ,CLi,or directly against our API.</p>
               </div>
               <div class="deploy col-xs-12 col-sm-6 col-md-6 ">
                 <img src="resources/optimized-compute.svg" alt="">
-                <h4>Optimized compute types</h4>
+                <h3>Optimized compute types</h3>
                 <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
               </div>
             </div>
@@ -178,12 +178,12 @@
               <div class="row">
               <div class="deploy col-xs-12 col-sm-6  col-md-6">
                 <img src="resources/one-click.svg" alt="">
-                <h4>One-click apps</h4>
+                <h3>One-click apps</h3>
                 <p>Skip the install and configuration process with pre-built open source images supporting Rails,Cassandra,Docker,and more.</p>
               </div>
               <div class="deploy col-xs-12 col-sm-6  col-md-6">
                 <img src="resources/global.svg" alt="">
-                <h4>Global availability</h4>
+                <h3>Global availability</h3>
                 <p>Deploy to any of our data center regions around the world</p>
               </div>
 
@@ -201,21 +201,21 @@
 
         <div class="row">
           <div class="col-xs-12">
-            <h2>Designed for developers</h2>
-            <p>Build more and spend less time managing your infrastructure with our easy-to-use control panl and API</p>
+            <h2 class="text-center">Designed for developers</h2>
+            <p class="text-center">Build more and spend less time managing your infrastructure with our easy-to-use control panl and API</p>
           </div>
         </div>
 
         <div class="row">
           <div class="col-xs-12">
-            <img src="" alt="">
+            <img class="text-center"id="carousel" src="resources/droplet.jpg" alt="">
             <div class="">
 
             </div>
             <img src="" alt="">
           </div>
         </div>
-        <p>Create compute servers in 55 seconds or less</p>
+        <p class="text-center">Create compute servers in 55 seconds or less</p>
       </div>
     </section>
 
@@ -225,28 +225,28 @@
 
         <div class="row">
           <div class="col-xs-12">
-            <h2>The features your business needs</h2>
+            <h2 class="text-center">The features your business needs</h2>
           </div>
         </div>
 
         <div class="row">
           <div class="col-xs-12 col-sm-4">
-              <img src="" alt="">
+              <img src="resources/pred-pricing.svg" alt="">
               <h5>Predictable pricing</h5>
               <p>Leave complex pricing structures behind.Always know what you'll pay per month whit a flat, industry-leading pricing structure.</p>
-              <a href="#">Pricing</a>
+              <a href="#">Pricing > </a>
           </div>
           <div class="col-xs-12 col-sm-4">
-            <img src="" alt="">
+            <img src="resources/world-class.svg" alt="">
             <h5>Predictable pricing</h5>
             <p>Leave complex pricing structures behind.Always know what you'll pay per month whit a flat, industry-leading pricing structure.</p>
-            <a href="#">Pricing</a>
+            <a href="#">Pricing > </a>
           </div>
           <div class="col-xs-12 col-sm-4">
-            <img src="" alt="">
-            <h5>Predictable pricing</h5>
+            <img src="resources/reliable-platform.svg" alt="">
+            <h5>Predictable pricing > </h5>
             <p>Leave complex pricing structures behind.Always know what you'll pay per month whit a flat, industry-leading pricing structure.</p>
-            <a href="#">Pricing</a>
+            <a href="#">Pricing > </a>
           </div>
         </div>
 
@@ -265,64 +265,64 @@
 
         <div class="row">
           <div class="col-xs-12 col-md-6">
-            <div class="">
+            <div class="speedtest">
               <span>AMS2</span>
               <span>Amsterdam,netherlands</span>
               <a href="#">Test-speed</a>
             </div>
-            <div class="">
+            <div class="speedtest">
               <span>AMS2</span>
               <span>Amsterdam,netherlands</span>
               <a href="#">Test-speed</a>
             </div>
-            <div class="">
+            <div class="speedtest">
               <span>AMS2</span>
               <span>Amsterdam,netherlands</span>
               <a href="#">Test-speed</a>
             </div>
-            <div class="">
+            <div class="speedtest">
               <span>AMS2</span>
               <span>Amsterdam,netherlands</span>
               <a href="#">Test-speed</a>
             </div>
-            <div class="">
+            <div class="speedtest">
               <span>AMS2</span>
               <span>Amsterdam,netherlands</span>
               <a href="#">Test-speed</a>
             </div>
-            <div class="">
+            <div class="speedtest">
               <span>AMS2</span>
               <span>Amsterdam,netherlands</span>
               <a href="#">Test-speed</a>
             </div>
           </div>
           <div class="col-xs-12 col-md-6">
-            <div class="">
+            <div class="speedtest">
               <span>AMS2</span>
               <span>Amsterdam,netherlands</span>
               <a href="#">Test-speed</a>
             </div>
-            <div class="">
+            <div class="speedtest">
               <span>AMS2</span>
               <span>Amsterdam,netherlands</span>
               <a href="#">Test-speed</a>
             </div>
-            <div class="">
+            <div class="speedtest">
               <span>AMS2</span>
               <span>Amsterdam,netherlands</span>
               <a href="#">Test-speed</a>
             </div>
-            <div class="">
+            <div class="speedtest">
               <span>AMS2</span>
               <span>Amsterdam,netherlands</span>
               <a href="#">Test-speed</a>
             </div>
-            <div class="">
+            <div class="speedtest">
               <span>AMS2</span>
               <span>Amsterdam,netherlands</span>
               <a href="#">Test-speed</a>
             </div>
-            <div class="">
+            <div class="speedtest">
               <span>AMS2</span>
               <span>Amsterdam,netherlands</span>
               <a href="#">Test-speed</a>

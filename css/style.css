@@ -2,12 +2,13 @@
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
-  text-align: center;
 }
 
 body {
 font-family: 'Open Sans', sans-serif;
 }
+
+
 
 .wd60{
     width:60%;
@@ -51,7 +52,6 @@ nav *{
 
 #sing_up:hover {
   background-color: #006aff;
-  color: white;
 }
 
 
@@ -63,7 +63,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  min-height: 400px;
   margin-top: 50px;
   color:white;
 }
@@ -85,22 +84,24 @@ header p{
 form{
   color:black;;
   background-color: #fff;
-  margin:50px 5%;
+  margin:50px auto;
   border-radius: 10px;
 }
 form input{
   display: inline-block;
-  margin:15px auto;
-  width:80%;
-  height: 50px;
-  text-align: left;
+  margin:10px auto;
+  width:90%;
+  height: 35px;
+  text-align:left;
+  padding-left: 10px;
 }
 form h4{
   font-weight: bolder;
 }
 
 form h4:first-child{
-  padding-top: 40px;
+  padding-top: 30px;
+  font-size: 20px;
 }
 
 form p{
@@ -110,30 +111,58 @@ form p{
 }
 
 form button{
-  width: 80%;
+  width: 90%;
   margin:15px auto;
   background-color: #579aff;
 }
 
+#createAccount{
+  color:white;
+}
 
 
+#getStarted{
+  color:blue;
+}
 
+#getStarted:hover{
+  cursor:pointer;
+}
+
+#googleicon{
+  max-width:8%;
+  max-height: 100%;
+}
+
+#googlesign{
+  text-align: left;
+  background-color: #fff;
+  border: solid 1px lightgrey;
+}
+#googlesign > span{
+  margin-left: 20%;
+  color:
+}
+
+form p a {
+  text-decoration: underline;
+}
 
 /* Section 1  Innovative businesses*/
 
 #section1 {
-  padding:40px 0;
-    background-color: #f3f5f9;
-}
-
-#customer{
-  padding:0 50px;
+  padding:5px 10px;
+  background-color: #f3f5f9;
+  color:grey;
 }
 
 .customer_icon{
-  transform: scale(.6);
+  transform: scale(.7);
 }
 
+#section1 div:last-child{
+  margin-bottom: 10px;
+}
 
 
 
@@ -141,17 +170,14 @@ form button{
 /* Section 2  Deploy and scale */
 
 .deploy{
-  font-size: 14px;
+  font-size: 18px;
   padding:20px;
-  margin-bottom:50px;
+  margin-bottom:30px;
+  position: relative;
 }
-.deploy img{
-  text-align: left;
-  margin:0 auto 0 0;
-}
+
 .deploy *{
   text-align: left;
-  margin:0!important;
 }
 
 
@@ -159,13 +185,25 @@ form button{
 
 /* Section 3 for developers */
 
+#section3{
+  background-color: #f3f5f9;
+}
+#carousel{
+  max-height:50%;
+  max-width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
 
-
+}
 
 
 /* SECTION 4 - Built*/
 
-
+#section4{
+  text-align:left;
+  padding:25px 0;
+}
 
 
 /* SECTION 5 - Service*/
@@ -173,6 +211,14 @@ form button{
 #section5 {
   background-image: linear-gradient(#0040ba, #00219c);
 }
+.speedtest{
+  border-bottom:white 2px solid ;
+  padding:5px;
+  margin-bottom:15px;
+}
+
+
+
 
 /* Section 6 - Development teams */
 
