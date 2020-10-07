@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+/* NAVBAR */
+
+nav.navbar {
+  position: fixed;
+  top: 0px;
+  margin-bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav img {
+  height: 100%;
+}
+
+
+#sing_up {
+  color: #006aff;
+  border: 2px solid #006aff;
+  padding: 5px 7px;
+  border-radius: 7px;
+}
+
+#sing_up:hover {
+  background-color: #006aff;
+  color: white;
+}
+
+
+
+/* HEADER */
+
+header {
+  background-image: url(../resources/bg.jumbo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  min-height: 400px;
+  margin-top: 50px;
+  color:white;
+}
+
+header h1{
+  font-size: 60px;
+  padding-top: 50px;
+}
+
+header p{
+  font-size:26px;
+  padding-bottom:50px;
+}
+
+
+
+
+
+/* Section 1  Innovative businesses*/
+
+#section1 {
+  background-color: #f3f5f9;
+}
+
+
+
+
+
+/* Section 2  Deploy and scale */
+
+
+
+
+
+
+/* Section 3 for developers */
+
+
+
+
+
+/* SECTION 4 - Built for business */
+
+
+
+
+/* SECTION 5 - Service around the world */
+
+#section5 {
+  background-image: linear-gradient(#0040ba, #00219c);
+}
+
+/* Section 6 - Development teams */
+
+#section6 {
+  background-color: #f3f5f9;
+}
+
+/* Section 7 - Service */
+
+#section7 {
+  background-image: linear-gradient(#0040ba, #00219c);
+  min-height: 200px;
+}
+
+/* FOOTER */
