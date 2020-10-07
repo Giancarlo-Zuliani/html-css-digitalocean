@@ -2,15 +2,12 @@
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
+  text-align: center;
 }
 
 body {
 font-family: 'Open Sans', sans-serif;
 }
-
-
-
-
 
 /* NAVBAR */
 
@@ -24,6 +21,10 @@ nav.navbar {
 
 nav img {
   height: 100%;
+}
+
+nav *{
+  color:darkblue!important;
 }
 
 
@@ -54,13 +55,50 @@ header {
 }
 
 header h1{
-  font-size: 60px;
+  text-align: left;
+  font-size: 50px;
+  font-weight: bolder;
   padding-top: 50px;
+  margin: 0 auto 50px auto;
 }
 
 header p{
+  text-align: left;
   font-size:26px;
   padding-bottom:50px;
+}
+
+form{
+  color:black;;
+  background-color: #fff;
+  margin:50px 5%;
+  border-radius: 10px;
+}
+form input{
+  display: inline-block;
+  margin:15px auto;
+  width:80%;
+  height: 50px;
+  text-align: left;
+}
+form h4{
+  font-weight: bolder;
+}
+
+form h4:first-child{
+  padding-top: 40px;
+}
+
+form p{
+  font-size:14px;
+  text-align:center;
+  padding-top:25px;
+}
+
+form button{
+  width: 80%;
+  margin:15px auto;
+  background-color: #579aff;
 }
 
 
@@ -90,12 +128,12 @@ header p{
 
 
 
-/* SECTION 4 - Built for business */
+/* SECTION 4 - Built*/
 
 
 
 
-/* SECTION 5 - Service around the world */
+/* SECTION 5 - Service*/
 
 #section5 {
   background-image: linear-gradient(#0040ba, #00219c);
