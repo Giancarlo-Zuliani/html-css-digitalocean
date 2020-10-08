@@ -7,6 +7,9 @@
 body {
 font-family: 'Open Sans', sans-serif;
 }
+ul li{
+  list-style: none;
+}
 
 
 
@@ -175,9 +178,14 @@ form p a {
   position: relative;
 }
 
-.deploy *{
+#deploy_list li{
+  border-left:solid 1px lightgrey;
+  padding:20px;
 }
 
+#deploy_list li:hover{
+  border-color: blue;
+}
 
 
 
@@ -407,4 +415,10 @@ footer {
 
 .footer-menu-item li {
   margin-top: 7px;
+}
+
+@media screen and (max-width:920px){
+  #deploy_list li{
+    display:inline-block;
+  }
 }
