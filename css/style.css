@@ -198,7 +198,7 @@ form p a {
 
 .carousel-section {
   background: #F3F5F9;
-  padding: 55px 0 150px 0;
+  padding: 50px 0;
 }
 
 .carousel-title {
@@ -214,11 +214,12 @@ form p a {
 
 .carousel-section #carousel-example-generic img {
   width: 100%;
-  height: 487px;
+  height: 500px;
 }
 
 .carousel-indicators.first {
-  top: 560px;
+  position: relative;
+  top: 550px;
 }
 
 .carousel-indicators li {
@@ -258,10 +259,18 @@ form p a {
   padding:25px 0;
 }
 
+.feat{
+  margin:25px 0;
+}
+
 /* SECTION 5 - Service*/
 
 #section5 {
-  background-image: linear-gradient(#0040ba, #00219c);
+  background-image:url('../resources/speed-bg.jpg');
+  background-position:50% 50%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:white;
 }
 
 .speedtest{
@@ -270,6 +279,22 @@ form p a {
   margin-bottom:15px;
 }
 
+.speedtest h5{
+  text-align: left;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.speedtest h6{
+  font-size: 16px;
+  display:inline-block;
+  margin-left: 30px;
+}
+
+.speedtest a{
+  float:right;
+}
 /* Section 6 - Development teams */
 
 #section6 {
