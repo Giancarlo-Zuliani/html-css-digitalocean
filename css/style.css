@@ -1,3 +1,6 @@
+
+  /* GENERAL RULES */
+
 * {
   box-sizing: border-box;
   margin: 0 auto;
@@ -12,11 +15,9 @@ ul li{
   list-style: none;
 }
 
-
-
 .wd60{
-    width:60%;
-    margin:auto;
+  width:60%;
+  margin:auto;
 }
 
 .wd80{
@@ -28,6 +29,7 @@ ul li{
   width:90%;
   margin:auto;
 }
+
 /* NAVBAR */
 
 nav.navbar {
@@ -46,7 +48,6 @@ nav *{
   color:darkblue!important;
 }
 
-
 #sing_up {
   color: #006aff;
   border: 2px solid #006aff;
@@ -57,8 +58,6 @@ nav *{
 #sing_up:hover {
   background-color: #006aff;
 }
-
-
 
 /* HEADER */
 
@@ -72,7 +71,6 @@ header {
 }
 
 header h1{
-
   font-size: 50px;
   font-weight: bolder;
   padding-top: 50px;
@@ -90,14 +88,15 @@ form{
   margin:50px auto;
   border-radius: 10px;
 }
+
 form input{
   display: inline-block;
   margin:10px auto;
   width:90%;
   height: 35px;
-
   padding-left: 10px;
 }
+
 form h4{
   font-weight: bolder;
 }
@@ -109,7 +108,6 @@ form h4:first-child{
 
 form p{
   font-size:14px;
-
   padding-top:25px;
 }
 
@@ -124,7 +122,6 @@ form button{
 #createAccount{
   color:white;
 }
-
 
 #getStarted{
   color:blue;
@@ -143,11 +140,9 @@ form button{
 }
 
 #googlesign{
-
   background-color: #fff;
   border: solid 1px lightgrey;
 }
-
 
 form p a {
   text-decoration: underline;
@@ -169,9 +164,6 @@ form p a {
   margin-bottom: 10px;
 }
 
-
-
-
 /* Section 2  Deploy and scale */
 
 .deploy{
@@ -190,8 +182,6 @@ form p a {
   border-color: blue;
 }
 
-
-
 /* Section 3 for developers */
 
 .arrow{
@@ -205,7 +195,6 @@ form p a {
 .arrow:hover{
   transform:scale(2.3);
 }
-
 
 .carousel-section {
   background: #F3F5F9;
@@ -222,8 +211,6 @@ form p a {
   margin-top: 25px;
   margin-bottom: 60px;
 }
-
-
 
 .carousel-section #carousel-example-generic img {
   width: 100%;
@@ -253,11 +240,6 @@ form p a {
   background: transparent;
 }
 
-.carousel-section .carousel-control.left:hover span,
-.carousel-section .carousel-control.right:hover span {
-  color: #1E68F9;
-}
-
 .carousel-section .carousel-control.left {
   left: -15%;
   opacity: 1;
@@ -270,35 +252,23 @@ form p a {
   text-shadow: none;
 }
 
-
-.carousel-control .glyphicon-chevron-left,
-.carousel-control .glyphicon-chevron-right,
-.carousel-control .icon-next,
-.carousel-control .icon-prev {
-  top: 53%;
-}
-
-
 /* SECTION 4 - Built*/
 
 #section4{
   padding:25px 0;
 }
 
-
 /* SECTION 5 - Service*/
 
 #section5 {
   background-image: linear-gradient(#0040ba, #00219c);
 }
+
 .speedtest{
   border-bottom:white 2px solid ;
   padding:5px;
   margin-bottom:15px;
 }
-
-
-
 
 /* Section 6 - Development teams */
 
@@ -370,6 +340,7 @@ form p a {
 }
 
 /* FOOTER */
+
 footer {
   padding: 50px 0;
   background: rgb(6, 27, 76);
@@ -419,6 +390,8 @@ footer {
 .footer-menu-item li {
   margin-top: 7px;
 }
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width:767px){
 
