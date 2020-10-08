@@ -193,7 +193,7 @@ form p a {
 }
 
 .arrow:hover{
-  transform:scale(2.3);
+  transform:scale(2.5);
 }
 
 .carousel-section {
@@ -295,6 +295,7 @@ form p a {
 .speedtest a{
   float:right;
 }
+
 /* Section 6 - Development teams */
 
 #section6 {
