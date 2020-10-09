@@ -329,12 +329,13 @@ form p a {
 }
 
 .carousel-section.second .carousel-indicators {
-  bottom: -60px;
+  bottom: -45px;
 }
 
 .maxh{
   min-height: 350px;
   max-height: 350px;
+  padding:50px;
 }
 
 /* Section 7 - Service */
